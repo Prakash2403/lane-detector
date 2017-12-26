@@ -11,7 +11,7 @@ formed by four co-ordinates contains the region where lanes are most likely pres
     3. Apply Gaussian Blur to reduce the noice.
     4. Apply Canny Edge detection to detect edges.
     5. By manually analyzing images, decide a region where lanes are most likely to be present. Region must 
-       be a quadilateral and has to be specified by 4 vertices, where each vertex is a list of (x, y) co-ordinates. 
+       be a quadilateral and has to be specified by 4 vertices, where each vertex is a (x, y) co-ordinate pair. 
        From now on, this region will be called as region of interest
     6. After applying Canny Edge detection and deciding a region of interest, except region of interest, 
        set the color of all pixels to black.
