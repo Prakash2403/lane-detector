@@ -67,6 +67,10 @@ def region_of_interest(img, vertices):
     """
     Preserves a given area of image, specified by vertices. Changes color of every other
     pixel to black.
+
+    If you are changing your test set, make sure to change the vertices so that
+    it contains the region where lanes are most likely present and noise is minimum.
+
     :param img: source image
     :param vertices: Co-ordinates of the vertices
     :return: masked image
