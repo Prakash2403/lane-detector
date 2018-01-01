@@ -30,6 +30,13 @@ formed by four co-ordinates contains the region where lanes are most likely pres
     15. Using y= mx + b equation, generate two pairs of (x, y) co-ordinates and pass them to opencv line method,
         to draw the lines.
         
+## Sample Outputs
+
+![](https://github.com/Prakash2403/lane-detector/blob/master/hough_output/final_test1.jpg)
+
+![](https://github.com/Prakash2403/lane-detector/blob/master/hough_output/final_test2.jpg)
+
+
 ## Future Work
 
 This algorithm doesn't work efficiently when sharp edges are present. Outliers rejection is also required.
